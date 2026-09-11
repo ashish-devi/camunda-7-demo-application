@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/camunda
+    username: camunda
+    password: camunda
+    hikari:
+      maximum-pool-size: 20
