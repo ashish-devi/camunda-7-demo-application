@@ -1,0 +1,19 @@
+spring.application.name: camunda-7-demo-application
+camunda:
+  bpm:
+    admin-user:
+      id: demo
+      password: demo
+      email: demo@demo.org
+      first-name: Demo
+      last-name: Demo
+    generic-properties:
+      properties:
+        historyTimeToLive: P1D
+    default-serialization-format: application/json
+    job-execution:
+      core-pool-size: 10
+      max-pool-size: 20
+      queue-capacity: 50
+
+logging.level.com.camunda.consulting.demo: DEBUG

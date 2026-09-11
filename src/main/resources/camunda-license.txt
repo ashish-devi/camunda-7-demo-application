@@ -1,0 +1,6 @@
+--------------- BEGIN CAMUNDA BPM LICENSE KEY ---------------
+CG+MjPwHf7bbRU7qU6CPtfHdD4QOXaZ7xUwcUt5kSgSWpngGxOj5q2pxXLi7r
+xMjQWCJl+aLab7HGV7GUtSBNjvYfIPivdJ1rauImf7FVBjBno+UrEueURY+O1
+s6GWepKAVI1k1iQKoDxACuTqCW15g+v1YQ/02qJv7n0EOPG5k=;
+camunda-consulting;unlimited
+---------------  END CAMUNDA BPM LICENSE KEY  ---------------
