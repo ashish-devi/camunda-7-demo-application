@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: camunda7-config
+  namespace: camunda7
+data:
+  application.yaml: |
+    spring:
+      datasource:
+        url: jdbc:postgresql://postgresql:5432/camunda
+        username: camunda
+        password: camunda
+        hikari:
+          maximum-pool-size: 20

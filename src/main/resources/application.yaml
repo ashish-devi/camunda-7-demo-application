@@ -17,3 +17,12 @@ camunda:
       queue-capacity: 50
 
 logging.level.com.camunda.consulting.demo: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when_authorized

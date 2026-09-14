@@ -92,6 +92,17 @@
             <artifactId>camunda-bpm-assert</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- Required only for /actuator/prometheus -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -119,7 +130,7 @@
                         <configuration>
                             <image>
                                 <imagePlatform>linux/amd64</imagePlatform>
-                                <name>ghcr.io/ashish-devi/demo-process-application/demo-process-application:${project.version}</name>
+                                <name>ghcr.io/ashish-devi/camunda-7-demo-application/camunda-7-demo-application:${project.version}</name>
                                 <env>
                                     <BP_JVM_VERSION>21</BP_JVM_VERSION>
                                 </env>
@@ -135,7 +146,7 @@
                         <configuration>
                             <image>
                                 <imagePlatform>linux/amd64</imagePlatform>
-                                <name>ghcr.io/ashish-devi/demo-process-application/demo-process-application</name>
+                                <name>ghcr.io/ashish-devi/camunda-7-demo-application/camunda-7-demo-application</name>
                                 <env>
                                     <BP_JVM_VERSION>21</BP_JVM_VERSION>
                                 </env>

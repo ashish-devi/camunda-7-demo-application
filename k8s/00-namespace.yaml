@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: camunda7
+  labels:
+    app.kubernetes.io/name: camunda7
+    app.kubernetes.io/managed-by: kubectl
